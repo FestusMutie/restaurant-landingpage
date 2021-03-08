@@ -1,0 +1,28 @@
+#landingpage{
+background-image: url('./assets/backgrounds/landing.jpg');
+background-size: cover;
+align-items: center;
+justify-content: contain;
+width: ;
+height: ;
+
+}
+#menu{ 
+    text-align: center;
+    }
+#breakfast{background-image: url('./assets/foodtop/breakfast.jpg');
+    box-sizing: border-box;
+
+    }
+#lunch{background-image: url('./assets/foodtop/lunch.jpg');
+    display: flex;
+
+}
+#dinner{background-image: url('./assets/foodtop/dinner.jpg');
+
+}
+.span{
+    background-image: url('./assets/foodtop/');
+}
+
+
