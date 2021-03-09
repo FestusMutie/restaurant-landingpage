@@ -3,26 +3,179 @@ background-image: url('./assets/backgrounds/landing.jpg');
 background-size: cover;
 align-items: center;
 justify-content: contain;
-width: ;
-height: ;
 
+
+
+}
+#header{
+    display: flex;
+    text-align: center;
 }
 #menu{ 
     text-align: center;
     }
 #breakfast{background-image: url('./assets/foodtop/breakfast.jpg');
-    box-sizing: border-box;
-
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 25px;
     }
 #lunch{background-image: url('./assets/foodtop/lunch.jpg');
     display: flex;
+    width: 25%;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 25px;
 
 }
 #dinner{background-image: url('./assets/foodtop/dinner.jpg');
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 25px;
 
 }
-.span{
-    background-image: url('./assets/foodtop/');
+.HappyTime{
+    background-color: white;
+    background-size: cover;
+    width: 25%;
+    display: flex;
 }
+.PartyTime{
+    background-color: tomato;
+    background-size: cover;
+    width: 25%;
+    display: flex;
+}
+.row{
+    display: flex;
+    width: 100%;
+    height: 200px;
 
+}
+#times{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+}
+.fastfood{
+    display: flex;
+
+    
+    margin: auto;
+}
+.drinks{
+    display: flex;
+}
+#drinks1{display: flex;
+    
+    margin: auto;
+
+}
+#HappyCustomer{font-size: larger;
+    color: tomato;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+
+}
+#George{
+    display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: row;
+
+}
+.customers{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.footer{
+    background-color: #f15a29;
+    height: 300px;
+}
+.subscription-header{
+    background-image: url(./assets/backgrounds/subscribe.jpg);
+background-repeat: no-repeat;
+margin-top: 100px;
+height: 300px;
+background-size: cover;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+.subscription-heading{
+    color: white;
+    font-size: 30px;
+}
+.email-entry-section{
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    flex-direction: row;
+    align-items: center;
+}
+.email-entry{
+    color: white;
+    font-size: 20px;
+    flex-grow: 2;
+    background-color: lightgray;
+    margin: 0 20px 0 0;
+}
+.email{
+padding: 0 0 0 15px;
+}
+.submit-button{
+    color: white;
+    font-size: 20px;
+    margin: 0 0 0 20px;
+    flex-grow: 1;
+    background-color: #f15a29;
+    text-align: center;
+}
+.end-footer-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 30px 30px 30px;
+}
+.footer-area{
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.MENU-TEXT{
+    color: white;
+    font-size: 20px;
+    margin: 0 0 0 15px;
+}
+.footer-description{
+    color: white;
+    font-size: 25px;
+
+}
+.copyright{
+    color: whitesmoke;
+}
+.app-icons{
+    flex-direction: row;
+    display: flex;
+    margin: 10px 0 30px 0;
+}
+.facebook-icon .twitter-icon .pintrest-icon {
+    height: 50px;
+    width: 50px;
+}
 
