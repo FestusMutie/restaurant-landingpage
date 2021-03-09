@@ -85,7 +85,13 @@ justify-content: contain;
     align-items: center;
     justify-content: center;
     flex-direction: row;
+    
 
+}
+#George-Richard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 #George{
     display: flex;
